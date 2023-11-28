@@ -11,7 +11,7 @@
     ```
 - **Set permanent path**
     ```bash
-    echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc && source ~/.bashrc
+    echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc && source ~/.bashrc
     ```
 - **Verify version**
     ```bash
@@ -32,9 +32,14 @@
     ```bash
     go doc fmt.Printf
     go doc fmt
+
+- **Set permanent path**
+    ```bash
+    echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc && source ~/.bashrc
     ```
+    
 - **Go Doc Server UI**
     ```bash
-    ~/go/bin/godoc -http=:8001
+    godoc -http=:8001
     ```
 
