@@ -43,3 +43,14 @@
     godoc -http=:8001
     ```
 
+### Using GO
+- **Like a scripting language**
+    ```bash
+    go run hw.go
+    ```
+
+- **Compiling Go code**
+    ```bash
+    go build hw.go
+    ./hw
+    ```
